@@ -1,0 +1,32 @@
+//要取陣列裡的值用 map-get($colors,red)
+$colors:(
+    white:#f6f9ff,
+    black:#181818,
+    yellow-l:#ffed1f,
+    yellow-d:#fbbc00,
+    yellow-dd:#e0a72d,
+    orange-l:#ffe398,
+    orange-d:#f07b3f,
+    orange-dd:#f54500,
+    blue:#293e74,
+    blue-l:#51618d,
+    blue-d:#2d4059,
+    gray-l:#dadcdf,
+    gray-d:#bfbfbf,
+    brown:#c15823,
+    brown-l:#fdbf00,
+    red:#ff0000,
+    red-d:#c64300,    
+);
+$breakpoints:(
+    all:0,
+    sm:480px,
+    md:600px,
+    lg:1024px,
+    xl:1200px
+);
+$col-padding:15px;
+$grid:12;
+$font-family: "Microsoft Jhenghei";
+$text-align:left,center,right,justify;
+$display:block,none; //inline-block,table,table-cell

@@ -1,0 +1,26 @@
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 0;
+    text-decoration: none;
+    color: #000;
+    background: #ccc;
+}
+@each $name,$color in $colors{
+    .btn-#{$name}{
+        background:$color;
+    }
+    // .btn-#{$name}:hover{
+    //     background: lighten($color,10);
+    // }
+    @if($name==red or $name==blue){
+        .btn-#{$name}:hover{
+        background: lighten($color,10);
+        }
+    }
+    @else{
+        .btn-#{$name}:hover{
+        background: darken($color,10);
+        }
+    }
+}
