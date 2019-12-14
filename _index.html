@@ -248,52 +248,102 @@
                 <div class="col-8 col-md-6 center">
                     <img class="w" src="img/signup_title.png" alt="">
                 </div>
-                <form>
-                    <div class="col-12">
-                        <div class="col-6 name t-white">
-                            <label for="name">姓名</label>
-                            <input type="text">
+                <form action="javascript:;" method="post">
+                    <div class="col-md-6 col-12 form-group">
+                        <label for="name" class="t-white">姓名</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6 col-12 form-group">
+                        <label for="phone" class="t-white">電話</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-12 form-group">
+                        <label for="email" class="t-white">E-mail</label>
+                        <input type="mail" class="form-control">
+                    </div>
+                    <div class="col-12 session t-white">
+                        <label for="session">參加場次</label>
+                        <br>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    10月02日 (三) 18:30-21:00 地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-6 phone t-white">
-                            <label for="phone">手機</label>
-                            <input type="text">
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    10月06日 (日) 13:30-16:00
+                                    地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-12 email t-white">
-                            <label for="email">Email</label>
-                            <input type="text">
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    10月15日 (二) 18:30-21:00
+                                    地點：台北市中正區信陽街26號5樓右邊教室 (出電梯右手邊第1間)
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-12 session t-white">
-                            <label for="session">參加場次</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label for="s1">10月02日 (三) 18:30-21:00
-                                地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label for="s2">10月06日 (日) 13:30-16:00
-                                地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label for="s3">10月15日 (二) 18:30-21:00
-                                地點：台北市中正區信陽街26號5樓右邊教室 (出電梯右手邊第1間)</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label for="s4">10月16日 (三) 18:30-21:00
-                                地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label
-                                for="s5">以上時間皆無法配合，若有其他場次可另外電話通知我參加。</label>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    10月16日 (三) 18:30-21:00
+                                    地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-12 experience t-white">
-                            <label for="">實際操盤經驗</label>
-                            <input type="radio" name="exp" value=""><label for="">1年以下</label>
-                            <input type="radio" name="exp" value=""><label for="">1-3年</label>
-                            <input type="radio" name="exp" value=""><label for="">3年以上</label>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    以上時間皆無法配合，若有其他場次可另外電話通知我參加。
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-12 warn t-white">
-                            注意事項：
-                            <br>
-                            1. 名額有限，請勿重複報名！
-                            <br>
-                            2. 報名請填寫全名，以維護出席權益。
+                    </div>
+                    <div class="col-12 experience t-white">
+                        <label for="">實際操盤經驗</label>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="exp" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    1年以下
+                                </label>
+                            </div>
                         </div>
-                        <a href="#"><img class="signup_btn" src="img/signup_btn.png" alt=""></a>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="exp" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                        1-3年
+                                </label>
+                            </div>
+                        </div>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="exp" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                        3年以上
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 warn t-white">
+                        注意事項：
+                        <br>
+                        1. 名額有限，請勿重複報名！
+                        <br>
+                        2. 報名請填寫全名，以維護出席權益。
+                    </div>
+                    <div class="col-12 t-center">
+                        <input type="submit" value="">
                     </div>
                 </form>
             </div>

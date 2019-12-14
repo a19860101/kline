@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css");
 @import "var";
 @import "global";
 @import "grid";
@@ -380,21 +381,21 @@ background-color: yellow;
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#signup .phone{
-    float: left;
-}
-#signup .name{
-    float: left;
-}
-#signup .phone input{
-    width: 300px;
-}
-#signup .name input{
-    width: 300px;
-}
-#signup .email input{
-    width: 720px;
-}
+// #signup .phone{
+//     float: left;
+// }
+// #signup .name{
+//     float: left;
+// }
+// #signup .phone input{
+//     width: 300px;
+// }
+// #signup .name input{
+//     width: 300px;
+// }
+// #signup .email input{
+//     width: 720px;
+// }
 #signup .session{
     float: left;
     text-align: left;
