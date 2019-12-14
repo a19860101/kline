@@ -491,6 +491,14 @@ li {
   background-color: #c64300;
 }
 
+.t-purple {
+  color: #7151bf;
+}
+
+.bgc-purple {
+  background-color: #7151bf;
+}
+
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -636,10 +644,18 @@ li {
   background: #933200;
 }
 
+.btn-purple {
+  background: #7151bf;
+}
+
+.btn-purple:hover {
+  background: #593ba2;
+}
+
 #seniority {
   background-image: url("/img/seniority_bg.png");
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 
 #seniority .seniority {
@@ -672,11 +688,32 @@ li {
   }
 }
 
+#seniority .sns {
+  line-height: 1.6;
+}
+
 @media (min-width: 1024px) {
   #seniority .sns {
     position: absolute;
     bottom: 15px;
     left: 15px;
+    padding-left: 5px;
+  }
+}
+
+@media (min-width: 600px) {
+  #seniority .sns {
+    padding-left: 30px;
+    padding-top: 10px;
+    color: #51618d;
+  }
+}
+
+@media (min-width: 480px) {
+  #seniority .sns {
+    padding-left: 30px;
+    padding-top: 10px;
+    color: #51618d;
   }
 }
 
@@ -761,6 +798,10 @@ li {
 
 a:link {
   text-decoration: none;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
 }
 
 /* nav */
@@ -864,6 +905,7 @@ nav a {
 #banner p {
   font-size: 18px;
   line-height: 1.6;
+  padding: 15px 0;
 }
 
 /*seniority*/
@@ -897,7 +939,7 @@ nav a {
   background: #ccc;
   border-radius: 50%;
   top: 0px;
-  left: -60px;
+  left: -40px;
 }
 
 .line {
@@ -909,7 +951,7 @@ nav a {
   position: absolute;
   height: 100%;
   top: -20px;
-  left: -50px;
+  left: -30px;
   border-left: 1px solid #ccc;
   /* padding-bottom: 50px; */
   /* padding-top: 10px; */
@@ -925,25 +967,7 @@ nav a {
   background: #ccc;
   border-radius: 50%;
   bottom: -30px;
-  left: -60px;
-}
-
-#exCircle {
-  margin: auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  background-color: green;
-}
-
-#inCircle {
-  margin-top: 50px;
-  margin-left: 50px;
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  background-color: yellow;
+  left: -40px;
 }
 
 .f-blod {

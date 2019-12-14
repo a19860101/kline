@@ -15,6 +15,10 @@ li{
 a:link{
     text-decoration: none;
 }
+
+.pb-20{
+    padding-bottom: 20px;
+}
 /* nav */
 nav{
     height: 50px;
@@ -91,6 +95,7 @@ nav a{
 #banner p{
     font-size: 18px;
     line-height: 1.6;
+    padding: 15px 0;
 }
 /*seniority*/
 // #seniority{
@@ -193,7 +198,7 @@ nav a{
     background: #ccc;
     border-radius: 50%;
     top: 0px;
-    left: -60px;
+    left: -40px;
 }
 .line {
     position: relative;
@@ -203,7 +208,7 @@ nav a{
     position: absolute;
     height: 100%;
     top: -20px;
-    left: -50px;
+    left: -30px;
     border-left: 1px solid #ccc;
     /* padding-bottom: 50px; */
     /* padding-top: 10px; */
@@ -218,25 +223,9 @@ nav a{
     background: #ccc;
     border-radius: 50%;
     bottom: -30px;
-    left: -60px;
-}
-#exCircle{
-margin:auto;
-width: 300px;
-height: 300px;
-border-radius: 150px;
-background-color: green;
+    left: -40px;
 }
 
-#inCircle{
-margin-top: 50px;
-margin-left: 50px;      
-position: absolute;
-width: 200px;
-height: 200px;
-border-radius: 100px;
-background-color: yellow;
-}
 .f-blod{
     font-weight: bold;
 }
