@@ -727,7 +727,7 @@ nav a {
 
 /*banner*/
 #banner {
-  background-image: url("/img/banner.jpg");
+  background-image: url("../img/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -856,42 +856,14 @@ nav a {
 
 /*results*/
 #results {
+  height: auto;
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: #ffe398;
 }
 
-@media (min-width: null) {
-  #results {
-    padding-top: 35px;
-    padding-bottom: 35px;
-  }
-}
-
-@media (min-width: 600px) {
-  #results {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-
-@media (min-width: 480px) {
-  #results {
-    padding-top: 5px;
-    padding-bottom: 9px;
-  }
-}
-
-#results .result_title {
-  margin-bottom: 30px;
-  width: 50%;
-}
-
-@media (min-width: 480px) {
-  #results .result_title {
-    width: 78%;
-    margin-bottom: 5px;
-  }
+#results .title {
+  padding-bottom: 20px;
 }
 
 #results .img {
@@ -899,61 +871,27 @@ nav a {
   margin-top: 5px;
 }
 
-@media (min-width: 480px) {
-  #results .img {
-    margin-top: 1px;
-  }
-}
-
-#results .subtitle {
+#results h3 {
   padding-top: 30px;
   padding-bottom: 2px;
   color: #f54500;
+  font-size: 1.62rem;
 }
 
-@media (min-width: null) {
-  #results .subtitle {
-    font-size: 1.9rem;
-  }
-}
-
-@media (min-width: 480px) {
-  #results .subtitle {
-    padding-top: 8px;
-    font-size: 0.8rem;
-  }
-}
-
-#results .subtitle > span {
+#results h3 > span {
   padding-top: 30px;
   padding-bottom: 2px;
   color: #f54500;
   letter-spacing: -6px;
-  font-weight: 800;
+  font-size: 2rem;
+  font-weight: 5500;
 }
 
-@media (min-width: null) {
-  #results .subtitle > span {
-    font-size: 2.2rem;
-  }
-}
-
-@media (min-width: 480px) {
-  #results .subtitle > span {
-    font-size: 0.98rem;
-  }
-}
-
-#results p {
+#results h4 {
   margin: 0;
   color: #f54500;
+  font-size: 1.25rem;
   font-weight: bold;
-}
-
-@media (min-width: 480px) {
-  #results p {
-    font-size: 0.63rem;
-  }
 }
 
 #results .col-4 {
@@ -968,15 +906,33 @@ nav a {
   background-position: center;
 }
 
-#share p {
-  margin-right: 20px;
-  margin-left: 20px;
-}
-
-.box {
+#share .box {
   border-radius: 10px;
   margin-top: 3%;
   background-color: #293e74;
+  width: 100%;
+}
+
+#share h4 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#share {
+  padding: 100px 0;
+}
+
+#share .name {
+  -webkit-transform: translateX(-28px);
+          transform: translateX(-28px);
+  position: relative;
+  z-index: 100;
+  border-radius: 5px;
+}
+
+#share .avatar {
+  position: relative;
+  z-index: 101;
 }
 
 /*info*/

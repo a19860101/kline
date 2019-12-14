@@ -30,7 +30,7 @@ nav a{
 
 /*banner*/
 #banner{
-    background-image: url('/img/banner.jpg');
+    background-image: url('../img/banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -229,72 +229,46 @@ background-color: yellow;
 
 /*results*/
 #results {
+    height: auto;
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #ffe398;
-    @include xl(){
-        padding-top: 35px;
-        padding-bottom: 35px;}
-    @include md(){
-        padding-top: 20px;
-        padding-bottom: 20px;}
-    @include sm(){
-        padding-top: 5px;
-        padding-bottom: 9px;}
-
-}
-#results .result_title {
-    margin-bottom: 30px;
-    width: 50%;
-    @include sm(){
-        width: 78%;
-        margin-bottom: 5px;}
-
-}
-#results .img {
+  }
+  #results .title {
+    padding-bottom: 20px;
+  }
+  #results .img {
     width: 100%;
     margin-top: 5px;
-    @include sm(){
-        margin-top: 1px;}
-}
-
-#results .subtitle {
-    padding-top: 30px;
-    padding-bottom: 2px;
-    color:#f54500;
-    @include xl(){
-    font-size: 1.9rem;}
-    @include sm(){
-    padding-top: 8px;
-    font-size: 0.8rem;}
-}
-
-
-#results .subtitle>span {
-    padding-top: 30px;
-    padding-bottom: 2px;
-    color:#f54500;
-    letter-spacing: -6px;
-    font-weight: 800;
-    @include xl(){
-        font-size: 2.2rem;}
-    @include sm(){
-    font-size: 0.98rem;}
-
-}
-
-#results p {
-    margin: 0;
-    color:#f54500;
-    font-weight: bold;
-    @include sm(){
-        font-size: 0.63rem;}
-}
-
-#results .col-4{
-    float: left;
-}
+  }
   
+  #results h3 {
+    padding-top: 30px;
+    padding-bottom: 2px;
+    color: #f54500;
+    font-size: 1.62rem;
+  }
+  
+  #results h3 > span {
+    padding-top: 30px;
+    padding-bottom: 2px;
+    color: #f54500;
+    letter-spacing: -6px;
+    font-size: 2rem;
+    font-weight: 5500;
+  }
+  
+  #results h4 {
+    margin: 0;
+    color: #f54500;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  #results .col-4 {
+    float: left;
+  }
+
 /*share*/
 #share {
     background-image: url("/img/share_bg1.jpg");
@@ -303,23 +277,48 @@ background-color: yellow;
     background-position: center;
 }
 
-#share p{
-   margin-right: 20px;
-   margin-left: 20px;
-}
+// #share p{
+//    margin-right: 20px;
+//    margin-left: 20px;
+// }
 
-.box{
+#share .box{
     border-radius: 10px;
     margin-top: 3%;
     background-color: #293e74;
-    
+    width: 100%;
 }
 
-// #share .bgc-blue{
-//     margin-left: 10px;
-//     margin-right: 10px;
-// }  
 
+#share h4{
+    font-size: 30px;
+    font-weight: bold;
+    // padding: px;
+    
+}
+#share {
+    padding: 100px 0;
+    .name {
+        transform: translateX(-28px);
+        position: relative;
+        z-index: 100;
+        border-radius: 5px;
+    }
+    .avatar {
+        // transform: scale(1.5);
+        // transform: translateX(30px);
+        position: relative;
+        z-index: 101;
+    }
+}
+
+// #share .wrapper{
+//     position: relative;
+// }
+
+// #share .sharer{
+//     position: absolute;
+// }
 
   /*info*/
   #info{
