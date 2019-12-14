@@ -4,6 +4,7 @@
 @import "text";
 @import "color";
 @import "btn";
+@import "zac";
 
 /* ALL */
 li{
@@ -79,78 +80,78 @@ nav a{
     line-height: 1.6;
 }
 /*seniority*/
-#seniority{
-    // height: 450px;
-    background-image: url('/img/seniority_bg.png');
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-#seniority .container {
-    background-color: #fbbc00;
-}
-#seniority .col-5{
-    float: left;
-    padding-right: 0;
-}
-#seniority .col-7{
-    float: left;
-    padding-left: 0;
-}
-#seniority .cloud{
-    background-image: url('/img/seniority_cloud.png');
-    background-color: #fbbc00;
-    background-repeat: no-repeat;
-    background-size: 100% ;
-    margin-right: 0px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
+// #seniority{
+//     // height: 450px;
+//     background-image: url('/img/seniority_bg.png');
+//     padding-top: 50px;
+//     padding-bottom: 50px;
+// }
+// #seniority .container {
+//     background-color: #fbbc00;
+// }
+// #seniority .col-5{
+//     float: left;
+//     padding-right: 0;
+// }
+// #seniority .col-7{
+//     float: left;
+//     padding-left: 0;
+// }
+// #seniority .cloud{
+//     background-image: url('/img/seniority_cloud.png');
+//     background-color: #fbbc00;
+//     background-repeat: no-repeat;
+//     background-size: 100% ;
+//     margin-right: 0px;
+//     border-top-left-radius: 15px;
+//     border-bottom-left-radius: 15px;
 
-    // padding-top: 15px;
-    // padding-bottom: 15px;
-}
-#seniority .cloud img{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    margin-right: 5px;
-    width: 280px;
-}
-#seniority .cloud a{
-    padding-bottom: 15px;
-}
-#seniority .col-7 {
-    height: 100%;
-}
-#seniority .yellow{
-    margin-left: 0px;
+//     // padding-top: 15px;
+//     // padding-bottom: 15px;
+// }
+// #seniority .cloud img{
+//     margin-top: 15px;
+//     margin-bottom: 15px;
+//     margin-right: 5px;
+//     width: 280px;
+// }
+// #seniority .cloud a{
+//     padding-bottom: 15px;
+// }
+// #seniority .col-7 {
+//     height: 100%;
+// }
+// #seniority .yellow{
+//     margin-left: 0px;
     
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    // height: 100%;
+//     border-top-right-radius: 15px;
+//     border-bottom-right-radius: 15px;
+//     // height: 100%;
 
-    // padding-top: 15px;
-    // padding-bottom: 15px;
-}
-#seniority .yellow h3{
-    font-size: 32px;
-    padding-left: 30px;
-}
-#seniority .yellow li{
-    // font-size: 16px;
-    padding-left: 30px;
-    // list-style-type: disc;
-    line-height: 2.5;
-    vertical-align: middle;
-}
-#seniority .yellow li::before {
-    content:"";
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: #ccc;
-    vertical-align: middle;
-    border-radius: 50%;
-    margin-right: 10px;
-}
+//     // padding-top: 15px;
+//     // padding-bottom: 15px;
+// }
+// #seniority .yellow h3{
+//     font-size: 32px;
+//     padding-left: 30px;
+// }
+// #seniority .yellow li{
+//     // font-size: 16px;
+//     padding-left: 30px;
+//     // list-style-type: disc;
+//     line-height: 2.5;
+//     vertical-align: middle;
+// }
+// #seniority .yellow li::before {
+//     content:"";
+//     display: inline-block;
+//     width: 30px;
+//     height: 30px;
+//     background: #ccc;
+//     vertical-align: middle;
+//     border-radius: 50%;
+//     margin-right: 10px;
+// }
 
 
 /*mindset*/

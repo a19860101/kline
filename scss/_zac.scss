@@ -1,0 +1,57 @@
+$cloud:#7b90ae;
+$orange:#fbbc00;
+#seniority{
+    // height: 450px;
+    background-image: url('/img/seniority_bg.png');
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#seniority {
+    .seniority {
+        background: $orange;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .gallery {
+        position: relative;
+        .clouds {
+            .cloud {
+                width: 100%;
+                height: 70px;
+                border-radius:0 35px 35px 0;
+                background: $cloud;
+            }
+        }
+        img {
+            position: absolute;
+            top: 30px;
+            left: 15px;
+            width: 80%;
+        }
+    }
+    .sns {
+        position: absolute;
+        bottom: 15px;
+        left: 15px;
+    }
+    .content {
+        padding-left: 30px;
+        h3 {
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+        li {
+            line-height: 3;
+            &::before {
+                content:"";
+                display: inline-block;
+                width: 30px;
+                height: 30px;
+                background: #ccc;
+                vertical-align: middle;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+        }
+    }
+}
