@@ -1,3 +1,5 @@
+@import url("https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css");
 @import "var";
 @import "global";
 @import "grid";
@@ -48,8 +50,21 @@ nav a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+#banner h1 {
+    @include all {
+        font-size: 48px;
+    }
+    @include sm {
+        font-size: 52px;
+    }
+}
 #banner h2 span{
-    font-size: 42px;
+    @include all {
+        font-size: 30px;
+    }
+    @include sm {
+        font-size: 42px;
+    }
     // display: block;
     position: relative;
     padding: 15px;
@@ -58,15 +73,13 @@ nav a{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-#banner h2::before{
-    // content: url('/img/dollar.png');
-    // position: absolute;
-    // left: 260px;
-}
-#banner h2::after{
-    // content: url('/img/dollar.png');
-    // position: absolute;
-    // right: 260px;
+#banner .dollar {
+    @include all {
+        width: 40px;
+    }
+    @include sm {
+        width: 60px;
+    }
 }
 #banner h4{
     font-size: 30px;
@@ -156,7 +169,8 @@ nav a{
 
 /*mindset*/
 #mindset{
-    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #mindset p {
     margin-top: 10px;
@@ -229,9 +243,8 @@ background-color: yellow;
 
 /*results*/
 #results {
-    height: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #ffe398;
   }
   #results .title {
@@ -297,7 +310,7 @@ background-color: yellow;
     
 }
 #share {
-    padding: 100px 0;
+    padding: 50px 0;
     .name {
         transform: translateX(-28px);
         position: relative;
@@ -322,7 +335,8 @@ background-color: yellow;
 
   /*info*/
   #info{
-      height: auto;
+      padding-top: 50px;
+      padding-bottom: 50px;
   }
   #info .point{
       padding-top: 20px;
@@ -374,26 +388,28 @@ background-color: yellow;
 /*signup*/  
 #signup{
     // height: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #signup .title{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#signup .phone{
-    float: left;
-}
-#signup .name{
-    float: left;
-}
-#signup .phone input{
-    width: 300px;
-}
-#signup .name input{
-    width: 300px;
-}
-#signup .email input{
-    width: 720px;
-}
+// #signup .phone{
+//     float: left;
+// }
+// #signup .name{
+//     float: left;
+// }
+// #signup .phone input{
+//     width: 300px;
+// }
+// #signup .name input{
+//     width: 300px;
+// }
+// #signup .email input{
+//     width: 720px;
+// }
 #signup .session{
     float: left;
     text-align: left;

@@ -23,16 +23,25 @@ $orange:#fbbc00;
             }
         }
         img {
-            position: absolute;
-            top: 30px;
-            left: 15px;
-            width: 80%;
+            position: relative;
+            
+            @include lg {
+                position: absolute;
+                top: 30px;
+                left: 15px;
+                width: 80%;
+            }
+            
         }
     }
     .sns {
-        position: absolute;
-        bottom: 15px;
-        left: 15px;
+
+        @include lg {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+        }
+        
     }
     .content {
         padding-left: 30px;
@@ -47,11 +56,53 @@ $orange:#fbbc00;
                 display: inline-block;
                 width: 30px;
                 height: 30px;
-                background: #ccc;
+                background: map-get($colors,blue-d);
                 vertical-align: middle;
                 border-radius: 50%;
                 margin-right: 10px;
             }
         }
     }
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-control {
+    border:2px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 5px;
+    outline: 0;
+    transition: .3s;
+    &:focus {
+        border: 2px solid $orange;
+    }
+}
+
+input[type="submit"]{
+    border: 0;
+    background-color:transparent;
+    background-image: url("../img/signup_btn.png");
+    background-position: center;
+    width: 200px;
+    height: 35px;
+    background-size: cover;
+    cursor: pointer;
+    outline: 0;
+    &:active {
+        transform: translate(1px ,1px);
+    }
+}
+// radio button of pretty checkbox
+.pretty {
+    white-space: initial!important;
+}
+.pretty .state label::after,.pretty .state label::before  {
+    top: 2px!important;
+}
+.pretty label {
+    padding-left: 28px;
+    text-indent: 0px!important;
+    line-height: 1.3;
 }

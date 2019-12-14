@@ -12,9 +12,9 @@
 
 <body>
     <nav class="bgc-gray-l">
-        <a href="#" class="t-black">講者資歷</a>
-        <a href="#" class="t-black">活動資訊</a>
-        <a href="#" class="t-black">即刻報名</a>
+        <a href="#" class="t-black" data-target="#seniority">講者資歷</a>
+        <a href="#" class="t-black" data-target="#info">活動資訊</a>
+        <a href="#" class="t-black" data-target="#signup">即刻報名</a>
     </nav>
     <section id="banner">
         <div class="full-width">
@@ -22,9 +22,9 @@
                 <div class="col- center">
                     <h1>白金K線獲利</h1>
                     <h2 class="vam">
-                        <img src="img/dollar.png" class="dp-none dp-sm-inline-block">
+                        <img src="img/dollar.png" class="dollar">
                         <span>免費分享會</span>
-                        <img src="img/dollar.png" class="dp-none dp-sm-inline-block">
+                        <img src="img/dollar.png" class="dollar">
                     </h2>
                     <h4 class="t-white center">白金K線操盤訓練中心 專業講師 張允飛</h4>
                     <p class="t-white">
@@ -41,19 +41,18 @@
                         SOP教你學會如何判讀K線與盤型
                         <br>
                         股票、期貨、選擇權、美股讓您賺遍全球！</p>
-                    <a href="#"><img src="img/banner_btn.png" alt=""></a>
+                    <a href="#" data-target="#signup" id="scroll_down"><img src="img/banner_btn.png" alt=""></a>
                 </div>
             </div>
     </section>
     <section id="seniority">
         <div class="full-width">
             <div class="fixed-width clearfix">
-                <div class="col-8 col-md-6 center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 center">
                     <img src="img/seniority_title.png" class="w-100">
                 </div>
             </div>
-
-            <div class="fixed-width clearfix vam seniority clearfix">
+            <div class="fixed-width clearfix vam seniority clearfix dp-none dp-lg-block">
                 <div class="col-5 gallery no-padding">
                     <div class="clouds">
                         <div class="cloud"></div>
@@ -64,8 +63,8 @@
                     </div>
                     <img src="img/seniority_img01.png" class="w-100">
                     <div class="sns">
-                        <a href="#" class="dp-block t-white">FACEBOOK</a>
-                        <a href="#" class="dp-block t-white">YOUTUBE</a>
+                        <a href="#" class="dp-block t-white">元大期貨【贏家會客室】來賓 <i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="dp-block t-white">夢想起飛 x 張允飛<i class="fas fa-external-link-alt"></i> </a>
                     </div>
                 </div>
                 <div class="col-7 content">
@@ -77,26 +76,31 @@
                         <li>實際操作獲利達上千萬元，年均獲利報酬可達50％以上 。</li>
                     </ul>
                 </div>
-
             </div>
-            <!-- <div class="fixed-width clearfix">
-                <div class="col-12">
-
-                    <div>
-                        <a href="#">FACEBOOK</a>
-                    </div>
-                    <div>
-                        <a href="#">YOUTUBE</a>
+            <div class="fixed-width clearfix  seniority clearfix dp-block dp-lg-none">
+                <div class="col-12 gallery no-padding">
+                    <img src="img/seniority_img01.png" class="w-100">
+                    <div class="sns">
+                        <a href="#" class="dp-block t-blue-d">元大期貨【贏家會客室】來賓 <i class="fas fa-external-link-alt"></i></a>
+                        <a href="#" class="dp-block t-blue-d">夢想起飛 x 張允飛<i class="fas fa-external-link-alt"></i> </a>
                     </div>
                 </div>
-            </div> -->
-        </div>
+                <div class="col-12 content">
+                    <h3 class="t-blue-d t-left">張允飛 老師</h3>
+                    <ul class="t-blue-d t-left">
+                        <li>曾就職於法人自營部期貨操盤人。</li>
+                        <li>2014年迄今，元大VIP室專職操作</li>
+                        <li>目前交易一個月平均6500口數。</li>
+                        <li>實際操作獲利達上千萬元，年均獲利報酬可達50％以上 。</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
     <section id="mindset">
         <div class="full-width">
             <div class="fixed-width clearfix">
-                <div class="col-8 col-md-6 center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 center">
                     <img src="img/mindset_title.png" class="w-100">
                 </div>
                 <div class="content">
@@ -127,28 +131,45 @@
         <div class="full-width">
             <div class="fixed-width center">
 
-                <div class="col-8 col-md-6 center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 center">
                     <img src="img/results_title.png" class="w-100">
                 </div>
 
                 <img class="img" src="img/results_img01.jpg" alt="">
 
-                <h3><span>&gt;&gt;&gt;</span>&ensp;&emsp;2019年股市動盪&emsp;<span>&lt;&lt;&lt;</span>
+                <h3><i class="fas fa-angle-right"></i>
+                    <i class="fas fa-angle-right"></i>
+                    <i class="fas fa-angle-right"></i>
+                    2019年股市動盪
+                    <i class="fas fa-angle-left"></i>
+                    <i class="fas fa-angle-left"></i>
+                    <i class="fas fa-angle-left"></i>
                 </h3>
                 <h4>透過張允飛老師的方法, 也能成功獲利！</h4>
                 <img class="img" src="img/results_img02.jpg" alt="">
 
-                <h3><span>&gt;&gt;&gt;</span>&ensp;&emsp;學員獲利績效&emsp;<span>&lt;&lt;&lt;</span>
+                <h3><i class="fas fa-angle-right"></i>
+                    <i class="fas fa-angle-right"></i>
+                    <i class="fas fa-angle-right"></i>學員獲利績效<i class="fas fa-angle-left"></i>
+                    <i class="fas fa-angle-left"></i>
+                    <i class="fas fa-angle-left"></i>
                 </h3>
-                <h4>
-                    </p>
-                    <img class="img" src="img/results_img03.jpg" alt="">
+                <h4>預留</h4>
 
-                    <h3><span>&gt;&gt;&gt;</span>&ensp;&emsp;波段操作
-                        獲利10萬&emsp;<span>&lt;&lt;&lt;</span>
-                    </h3>
-                    <h4> </h4>
-                    <img class="img" src="img/results_img04.jpg" alt="">
+                <img class="img" src="img/results_img03.jpg" alt="">
+
+                <h3>
+                    <i class="fas fa-angle-right"></i>
+                    <i class="fas fa-angle-right"></i>
+                    <i class="fas fa-angle-right"></i>
+                    波段操作
+                    獲利10萬
+                    <i class="fas fa-angle-left"></i>
+                    <i class="fas fa-angle-left"></i>
+                    <i class="fas fa-angle-left"></i>
+                </h3>
+                <h4>預留</h4>
+                <img class="img" src="img/results_img04.jpg" alt="">
 
             </div>
         </div>
@@ -157,11 +178,11 @@
     <section id="share">
         <div class="full-width">
             <div class="fixed-width clearfix">
-                <div class="col-8 col-md-6 center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 center">
                     <img src="img/sharer_title.png" class="w-100">
                 </div>
                 <div class="box clearfix">
-                    <div class="col-6 share-info vam">
+                    <div class="col-12 col-lg-6 share-info vam">
                         <div class="col-4 avatar">
                             <img class="sharer w-100" src="img/sharer_01.png">
                         </div>
@@ -174,12 +195,12 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
                         <img src="img/share_img01.png" class="w-100">
                     </div>
                 </div>
                 <div class="box clearfix">
-                    <div class="col-6 share-info vam">
+                    <div class="col-12 col-lg-6 share-info vam">
                         <div class="col-4 avatar">
                             <img class="sharer w-100" src="img/sharer_02.png">
                         </div>
@@ -193,7 +214,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-lg-6">
                         <img src="img/share_img02.png" class="w-100">
                     </div>
                 </div>
@@ -202,8 +223,8 @@
     </section>
     <section id="info">
         <div class="full-width">
-            <div class="fixed-width clearfix">
-                <div class="col-8 col-md-6 center">
+            <div class="fixed-width clearfix t-center">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 center">
                     <img src="img/info_title.png" class="w-100">
                 </div>
                 <h4 class="point t-orange-dd">
@@ -219,28 +240,25 @@
                 <div class="col-12 col-lg-6">
                     <h5 class="bgc-brown t-white">10月 02日 (三) 18:30-21:00</h5>
                     <p class="bgc-brown-l">台北市中正區信陽街26號4樓右邊教室
-                        <br>
+
                         (中山捷運站6號出口，步行5分鐘)
                     </p>
                 </div>
                 <div class="col-12 col-lg-6">
                     <h5 class="bgc-brown t-white">10月 02日 (三) 18:30-21:00</h5>
                     <p class="bgc-brown-l">台北市中正區信陽街26號4樓右邊教室
-                        <br>
                         (中山捷運站6號出口，步行5分鐘)
                     </p>
                 </div>
                 <div class="col-12 col-lg-6">
                     <h5 class="bgc-brown t-white">10月 02日 (三) 18:30-21:00</h5>
                     <p class="bgc-brown-l">台北市中正區信陽街26號4樓右邊教室
-                        <br>
                         (中山捷運站6號出口，步行5分鐘)
                     </p>
                 </div>
                 <div class="col-12 col-lg-6">
                     <h5 class="bgc-brown t-white">10月 02日 (三) 18:30-21:00</h5>
                     <p class="bgc-brown-l">台北市中正區信陽街26號4樓右邊教室
-                        <br>
                         (中山捷運站6號出口，步行5分鐘)
                     </p>
                 </div>
@@ -254,55 +272,110 @@
     <section id="signup" class="bgc-red-d">
         <div class="full-width">
             <div class="fixed-width clearfix">
-                <div class="col-8 col-md-6 center">
-                    <img class="w" src="img/signup_title.png" alt="">
+                <div class="col-12 col-sm-10 col-md-8 col-lg-6 center">
+                    <img class="w-100" src="img/signup_title.png" alt="">
                 </div>
-                <form>
-                    <div class="col-12">
-                        <div class="col-6 name t-white">
-                            <label for="name">姓名</label>
-                            <input type="text">
+                <form action="javascript:;" method="post">
+                    <div class="col-md-6 col-12 form-group">
+                        <label for="name" class="t-white">姓名</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6 col-12 form-group">
+                        <label for="phone" class="t-white">電話</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-12 form-group">
+                        <label for="email" class="t-white">E-mail</label>
+                        <input type="mail" class="form-control">
+                    </div>
+                    <div class="col-12 session t-white">
+                        <label for="session">參加場次</label>
+                        <br>
+                        <br>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    10月02日 (三) 18:30-21:00
+                                    地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-6 phone t-white">
-                            <label for="phone">手機</label>
-                            <input type="text">
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    10月06日 (日) 13:30-16:00
+                                    地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-12 email t-white">
-                            <label for="email">Email</label>
-                            <input type="text">
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    10月15日 (二) 18:30-21:00
+                                    地點：台北市中正區信陽街26號5樓右邊教室 (出電梯右手邊第1間)
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-12 session t-white">
-                            <label for="session">參加場次</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label for="s1">10月02日 (三) 18:30-21:00
-                                地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label for="s2">10月06日 (日) 13:30-16:00
-                                地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label for="s3">10月15日 (二) 18:30-21:00
-                                地點：台北市中正區信陽街26號5樓右邊教室 (出電梯右手邊第1間)</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label for="s4">10月16日 (三) 18:30-21:00
-                                地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)</label>
-                            <br>
-                            <input type="radio" name="session" value=""><label
-                                for="s5">以上時間皆無法配合，若有其他場次可另外電話通知我參加。</label>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    10月16日 (三) 18:30-21:00
+                                    地點：台北市中正區信陽街26號4樓右邊教室 (出電梯左手邊第2間)
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-12 experience t-white">
-                            <label for="">實際操盤經驗</label>
-                            <input type="radio" name="exp" value=""><label for="">1年以下</label>
-                            <input type="radio" name="exp" value=""><label for="">1-3年</label>
-                            <input type="radio" name="exp" value=""><label for="">3年以上</label>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="session" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    以上時間皆無法配合，若有其他場次可另外電話通知我參加。
+                                </label>
+                            </div>
                         </div>
-                        <div class="col-12 warn t-white">
-                            注意事項：
-                            <br>
-                            1. 名額有限，請勿重複報名！
-                            <br>
-                            2. 報名請填寫全名，以維護出席權益。
+                    </div>
+                    <div class="col-12 experience t-white">
+                        <label for="">實際操盤經驗</label>
+                        <br><br>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="exp" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    1年以下
+                                </label>
+                            </div>
                         </div>
-                        <a href="#"><img class="signup_btn" src="img/signup_btn.png" alt=""></a>
+                        <br>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="exp" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    1-3年
+                                </label>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="pretty p-default p-round p-fill p-plain p-smooth form-group">
+                            <input type="radio" name="exp" value="">
+                            <div class="state p-warning">
+                                <label for="s1">
+                                    3年以上
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 warn t-white">
+                        注意事項：
+                        <br>
+                        1. 名額有限，請勿重複報名！
+                        <br>
+                        2. 報名請填寫全名，以維護出席權益。
+                    </div>
+                    <div class="col-12 t-center">
+                        <input type="submit" value="">
                     </div>
                 </form>
             </div>
@@ -311,6 +384,8 @@
     <footer class="btn-gray-d center">
         © 2019 ALL RIGHTS RESERVED
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
