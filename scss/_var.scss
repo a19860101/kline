@@ -23,10 +23,15 @@ $breakpoints:(
     sm:480px,
     md:600px,
     lg:1024px,
-    xl:1200px
+    // xl:1200px
 );
 $col-padding:15px;
 $grid:12;
 $font-family: "Microsoft Jhenghei";
 $text-align:left,center,right,justify;
-$display:block,none; //inline-block,table,table-cell
+$display:block,none,inline-block; //inline-block,table,table-cell
+// $display:(
+//     "none":none,
+//     "block":block,
+//     "ib":inline-block
+// );
